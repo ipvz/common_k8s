@@ -6,7 +6,7 @@ metadata:
 spec:
   teamId: "common"
   volume:
-    storageClass: manual
+    storageClass: yc-network-hdd
     size: 5Gi
   numberOfInstances: 2
   users:
