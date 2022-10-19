@@ -28,7 +28,7 @@ spec:
       class: yc-network-hdd
       deleteClaim: false
   zookeeper:
-    replicas: 3
+    replicas: 2
     storage:
       type: persistent-claim
       size: 3Gi
