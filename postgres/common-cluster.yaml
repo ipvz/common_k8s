@@ -10,11 +10,19 @@ spec:
     size: 5Gi
   numberOfInstances: 2
   users:
+    fa_user:
+    - superuser
+    - createdb
+    - login
     xbot.su:
     - superuser
     - createdb
     - login
   databases:
     xbot: xbot.su
+    fa_user_db: fa_user
+    fa_auth_db: fa_user
+    fa_group_db: fa_user
+    fa_category_db: fa_user
   postgresql:
     version: "14"
