@@ -14,10 +14,6 @@ spec:
     - superuser
     - createdb
     - login
-    fa_auth_su:
-    - superuser
-    - createdb
-    - login
     xbot.su:
     - superuser
     - createdb
@@ -25,7 +21,7 @@ spec:
   databases:
     xbot: xbot.su
     fa_user_db: fa_user
-    fa_auth_db: fa_auth_su
+    fa_auth_db: fa_user
     fa_group_db: fa_user
     fa_category_db: fa_user
   postgresql:
