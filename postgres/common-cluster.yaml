@@ -30,5 +30,3 @@ spec:
     fa_category_db: fa_user
   postgresql:
     version: "14"
-    parameters:
-      password_encryption: scram-sha-256
