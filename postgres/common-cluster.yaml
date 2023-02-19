@@ -25,5 +25,6 @@ spec:
     fa_group_db: fa_user
     fa_category_db: fa_user
     fa_account_db: fa_user
+    fa_balance_db: fa_user
   postgresql:
     version: "14"
